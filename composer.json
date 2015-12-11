@@ -7,7 +7,8 @@
     "authors": [
         {
             "name": "coseyo",
-            "email": "phpseyo@qq.com"
+            "email": "phpseyo@qq.com",
+            "homepage": "https://github.com/coseyo"
         }
     ],
     "require": {
