@@ -1,5 +1,5 @@
 {
-    "name": "coseyo/vcache",
+    "name": "coseyo/vercache",
     "type": "library",
     "description": "version cache base on redis",
     "keywords": ["cache", "version cache", "redis cache"],
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "VCache\\": "src/VCache"
+            "VCache\\": "src/Vercache"
         }
     }
 }

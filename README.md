@@ -1,9 +1,9 @@
-# php-vcache
+# Vercache
 version cache by php
 
 ## Example below
 ```php
-$cache = new VCache([
+$cache = new Vercache([
 	'host' => '127.0.0.1',
 	'port' => '11211',
 	'timeout' => 5,

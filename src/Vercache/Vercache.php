@@ -6,7 +6,7 @@
  * 使用示例
  * ------------------------------------------------
  *
- * $cache = \App::make('vcache');
+ * $cache = \App::make('vercache');
  * $version = 'version';
  * $prefix = 'prefix';
  * $versionKey = $cache->getVersionKey([
@@ -33,7 +33,7 @@
  * @date 2015-12-10
  * Class VCache
  */
-class VCache
+class Vercache
 {
     /**
      * 缓存索引
