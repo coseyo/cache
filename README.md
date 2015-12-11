@@ -5,7 +5,7 @@ version cache by php
 ```php
 $cache = new VCache([
 	'host' => '127.0.0.1',
-	'port' => '127.0.0.1',
+	'port' => '11211',
 	'timeout' => 5,
 	'expire' => 900,
 	'prefix' => 'test',
