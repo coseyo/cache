@@ -66,9 +66,11 @@ class Vercache
     {
         $this->cachePrefix = $params['prefix'];
         $this->expireTime = $params['expire'];
+        $is_pconnect = isset($params['is_pconnect']) ? $params['is_pconnect'] : 1;
         try {
             $this->redis = new redis();
-            $this->redis->connect($params['host'], $params['port'], $params['timeout']);
+            $method = $is_pconnect ? 'pconnect' : 'connect';
+            $this->redis->{$method}($params['host'], $params['port'], $params['timeout']);
         } catch (RedisException $e) {
             show_error('Redis connection refused. ' . $e->getMessage());
         }
