@@ -29,7 +29,6 @@
  * $cache->incrVersionNum($prefix, $versionKey);
  * ------------------------------------------------
  *
- * @author zhongyijun@wps.cn
  * @date 2015-12-10
  * Class VCache
  */
